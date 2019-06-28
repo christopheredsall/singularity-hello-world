@@ -1,4 +1,4 @@
-# Singularity Continaer with MPI on Slurm
+# Singularity Container with MPI on Slurm
 
 ```ShellSession
 $ ./shub-pull.sh
@@ -7,7 +7,7 @@ Done. Container is at: /mnt/shared/home/ce16990/singularity/michael-tn-mpi-hello
 Done. Container is at: /mnt/shared/home/ce16990/singularity/mpi-hello-test.img
 $ sbatch submit.sh 
 Submitted batch job 2
-$ cat slurm-27.out 
+$ cat slurm-2.out 
 Hello world from processor vm-standard2-2-ad1-0001, rank 0 out of 2 processors
 Hello world from processor vm-standard2-2-ad1-0001, rank 1 out of 2 processors
 ```
